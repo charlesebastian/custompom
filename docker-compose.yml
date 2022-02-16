@@ -1,0 +1,9 @@
+version: '1.0'
+services:
+  custom-pom:
+    container_name: "custom-pom"
+    image: custom-pom:1.0
+    build: .
+    ports:
+      - "8080:8080"
+
